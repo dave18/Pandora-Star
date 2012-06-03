@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Singstar" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="PC Debug">
+				<Option output="./built/PC_Template_d" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="./built/" />
+				<Option object_output="./obj/PC/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DPLATFORM_PC" />
+					<Add option="-DHAVE_GLES" />
+					<Add option="-DUSE_GLES2" />
+					<Add option="-DPANDORA" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL -lSDL_image -lSDL_mixer -lSDL_ttf" />
+					<Add option="-lGLES_CM -lEGL" />
+					<Add option="-lX11" />
+					<Add library="./libbass.so" />
+				</Linker>
+			</Target>
+			<Target title="PC Release">
+				<Option output="./built/singstar" prefix_auto="0" extension_auto="1" />
+				<Option working_dir="./built/" />
+				<Option object_output="./obj/PC/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_PC" />
+					<Add option="-DHAVE_GLES" />
+					<Add option="-DUSE_GLES2" />
+					<Add option="-DPANDORA" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lSDL -lSDL_image -lSDL_mixer -lSDL_ttf" />
+					<Add option="-lGLES_CM -lEGL" />
+					<Add option="-lX11" />
+					<Add library="./libbass.so" />
+				</Linker>
+			</Target>
+			<Target title="DevkitGP2X GPL Release">
+				<Option output="./built/GP2X_GPL_Template_r.gpe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="./built/" />
+				<Option object_output="./obj/GPL_GP2X/Release" />
+				<Option type="1" />
+				<Option compiler="devkitgp2x" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_GP2X" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static -lSDL_gfx -lSDL_ttf -lfreetype -lSDL_image -ljpeg -lpng12 -lz -lSDL_mixer -lvorbisidec -lmikmod -lmad -lSDL -lgcc -lm -lc -lexpat -lpthread -msoft-float" />
+					<Add option="-lvorbisfile -logg -vorbis" />
+				</Linker>
+			</Target>
+			<Target title="DevkitGP2X LGPL Release">
+				<Option output="./built/GP2X_LPGL_Template_r.gpe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="./built/" />
+				<Option object_output="./obj/LGPL_GP2X/Release" />
+				<Option type="1" />
+				<Option compiler="devkitgp2x_lgpl" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DPLATFORM_GP2X" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static -lSDL_gfx -lSDL_ttf -lfreetype -lSDL_image -ljpeg -lpng12 -lz -lSDL_mixer -lvorbisidec -lmikmod -lsmpeg -lSDL -lgcc -lm -lc -lexpat -lpthread -msoft-float" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Singstar.cpp" />
+		<Unit filename="Singstar.h" />
+		<Unit filename="eglport.cpp" />
+		<Unit filename="eglport.h">
+			<Option target="PC Debug" />
+			<Option target="PC Release" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

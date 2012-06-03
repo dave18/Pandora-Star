@@ -1,0 +1,295 @@
+<?xml version="1.0" ?>
+<bitmapfont-machine version="1.0">
+  <image-width>128</image-width>
+  <image-height>128</image-height>
+  <spacing-x>0</spacing-x>
+  <spacing-y>0</spacing-y>
+  <layout>
+    <rectangle x="0" y="0" width="16" height="16">
+      <character>87</character>
+    </rectangle>
+    <rectangle x="16" y="0" width="14" height="16">
+      <character>77</character>
+    </rectangle>
+    <rectangle x="30" y="0" width="13" height="16">
+      <character>37</character>
+    </rectangle>
+    <rectangle x="43" y="0" width="13" height="16">
+      <character>109</character>
+    </rectangle>
+    <rectangle x="56" y="0" width="11" height="16">
+      <character>38</character>
+    </rectangle>
+    <rectangle x="67" y="0" width="11" height="16">
+      <character>72</character>
+    </rectangle>
+    <rectangle x="78" y="0" width="11" height="16">
+      <character>78</character>
+    </rectangle>
+    <rectangle x="89" y="0" width="11" height="16">
+      <character>119</character>
+    </rectangle>
+    <rectangle x="100" y="0" width="10" height="16">
+      <character>35</character>
+    </rectangle>
+    <rectangle x="110" y="0" width="10" height="16">
+      <character>36</character>
+    </rectangle>
+    <rectangle x="0" y="16" width="10" height="16">
+      <character>42</character>
+    </rectangle>
+    <rectangle x="10" y="16" width="10" height="16">
+      <character>43</character>
+    </rectangle>
+    <rectangle x="20" y="16" width="10" height="16">
+      <character>47</character>
+    </rectangle>
+    <rectangle x="30" y="16" width="10" height="16">
+      <character>48</character>
+    </rectangle>
+    <rectangle x="40" y="16" width="10" height="16">
+      <character>49</character>
+    </rectangle>
+    <rectangle x="50" y="16" width="10" height="16">
+      <character>50</character>
+    </rectangle>
+    <rectangle x="60" y="16" width="10" height="16">
+      <character>51</character>
+    </rectangle>
+    <rectangle x="70" y="16" width="10" height="16">
+      <character>52</character>
+    </rectangle>
+    <rectangle x="80" y="16" width="10" height="16">
+      <character>53</character>
+    </rectangle>
+    <rectangle x="90" y="16" width="10" height="16">
+      <character>54</character>
+    </rectangle>
+    <rectangle x="100" y="16" width="10" height="16">
+      <character>55</character>
+    </rectangle>
+    <rectangle x="110" y="16" width="10" height="16">
+      <character>56</character>
+    </rectangle>
+    <rectangle x="0" y="32" width="10" height="16">
+      <character>57</character>
+    </rectangle>
+    <rectangle x="10" y="32" width="10" height="16">
+      <character>61</character>
+    </rectangle>
+    <rectangle x="20" y="32" width="10" height="16">
+      <character>64</character>
+    </rectangle>
+    <rectangle x="30" y="32" width="10" height="16">
+      <character>65</character>
+    </rectangle>
+    <rectangle x="40" y="32" width="10" height="16">
+      <character>66</character>
+    </rectangle>
+    <rectangle x="50" y="32" width="10" height="16">
+      <character>67</character>
+    </rectangle>
+    <rectangle x="60" y="32" width="10" height="16">
+      <character>68</character>
+    </rectangle>
+    <rectangle x="70" y="32" width="10" height="16">
+      <character>71</character>
+    </rectangle>
+    <rectangle x="80" y="32" width="10" height="16">
+      <character>75</character>
+    </rectangle>
+    <rectangle x="90" y="32" width="10" height="16">
+      <character>79</character>
+    </rectangle>
+    <rectangle x="100" y="32" width="10" height="16">
+      <character>81</character>
+    </rectangle>
+    <rectangle x="110" y="32" width="10" height="16">
+      <character>82</character>
+    </rectangle>
+    <rectangle x="0" y="48" width="10" height="16">
+      <character>85</character>
+    </rectangle>
+    <rectangle x="10" y="48" width="10" height="16">
+      <character>92</character>
+    </rectangle>
+    <rectangle x="20" y="48" width="9" height="16">
+      <character>80</character>
+    </rectangle>
+    <rectangle x="29" y="48" width="9" height="16">
+      <character>83</character>
+    </rectangle>
+    <rectangle x="38" y="48" width="9" height="16">
+      <character>86</character>
+    </rectangle>
+    <rectangle x="47" y="48" width="9" height="16">
+      <character>88</character>
+    </rectangle>
+    <rectangle x="56" y="48" width="9" height="16">
+      <character>89</character>
+    </rectangle>
+    <rectangle x="65" y="48" width="9" height="16">
+      <character>90</character>
+    </rectangle>
+    <rectangle x="74" y="48" width="8" height="16">
+      <character>63</character>
+    </rectangle>
+    <rectangle x="82" y="48" width="8" height="16">
+      <character>69</character>
+    </rectangle>
+    <rectangle x="90" y="48" width="8" height="16">
+      <character>70</character>
+    </rectangle>
+    <rectangle x="98" y="48" width="8" height="16">
+      <character>74</character>
+    </rectangle>
+    <rectangle x="106" y="48" width="8" height="16">
+      <character>76</character>
+    </rectangle>
+    <rectangle x="114" y="48" width="8" height="16">
+      <character>84</character>
+    </rectangle>
+    <rectangle x="0" y="64" width="8" height="16">
+      <character>95</character>
+    </rectangle>
+    <rectangle x="8" y="64" width="8" height="16">
+      <character>96</character>
+    </rectangle>
+    <rectangle x="16" y="64" width="8" height="16">
+      <character>97</character>
+    </rectangle>
+    <rectangle x="24" y="64" width="8" height="16">
+      <character>98</character>
+    </rectangle>
+    <rectangle x="32" y="64" width="8" height="16">
+      <character>99</character>
+    </rectangle>
+    <rectangle x="40" y="64" width="8" height="16">
+      <character>100</character>
+    </rectangle>
+    <rectangle x="48" y="64" width="8" height="16">
+      <character>101</character>
+    </rectangle>
+    <rectangle x="56" y="64" width="8" height="16">
+      <character>103</character>
+    </rectangle>
+    <rectangle x="64" y="64" width="8" height="16">
+      <character>104</character>
+    </rectangle>
+    <rectangle x="72" y="64" width="8" height="16">
+      <character>110</character>
+    </rectangle>
+    <rectangle x="80" y="64" width="8" height="16">
+      <character>111</character>
+    </rectangle>
+    <rectangle x="88" y="64" width="8" height="16">
+      <character>112</character>
+    </rectangle>
+    <rectangle x="96" y="64" width="8" height="16">
+      <character>113</character>
+    </rectangle>
+    <rectangle x="104" y="64" width="8" height="16">
+      <character>115</character>
+    </rectangle>
+    <rectangle x="112" y="64" width="8" height="16">
+      <character>117</character>
+    </rectangle>
+    <rectangle x="120" y="64" width="8" height="16">
+      <character>126</character>
+    </rectangle>
+    <rectangle x="0" y="80" width="7" height="16">
+      <character>60</character>
+    </rectangle>
+    <rectangle x="7" y="80" width="7" height="16">
+      <character>62</character>
+    </rectangle>
+    <rectangle x="14" y="80" width="7" height="16">
+      <character>94</character>
+    </rectangle>
+    <rectangle x="21" y="80" width="7" height="16">
+      <character>107</character>
+    </rectangle>
+    <rectangle x="28" y="80" width="6" height="16">
+      <character>114</character>
+    </rectangle>
+    <rectangle x="34" y="80" width="6" height="16">
+      <character>118</character>
+    </rectangle>
+    <rectangle x="40" y="80" width="6" height="16">
+      <character>120</character>
+    </rectangle>
+    <rectangle x="46" y="80" width="6" height="16">
+      <character>121</character>
+    </rectangle>
+    <rectangle x="52" y="80" width="6" height="16">
+      <character>122</character>
+    </rectangle>
+    <rectangle x="58" y="80" width="6" height="16">
+      <character>123</character>
+    </rectangle>
+    <rectangle x="64" y="80" width="6" height="16">
+      <character>125</character>
+    </rectangle>
+    <rectangle x="70" y="80" width="5" height="16">
+      <character>34</character>
+    </rectangle>
+    <rectangle x="75" y="80" width="5" height="16">
+      <character>116</character>
+    </rectangle>
+    <rectangle x="80" y="80" width="4" height="16">
+      <character>32</character>
+    </rectangle>
+    <rectangle x="84" y="80" width="4" height="16">
+      <character>33</character>
+    </rectangle>
+    <rectangle x="88" y="80" width="4" height="16">
+      <character>40</character>
+    </rectangle>
+    <rectangle x="92" y="80" width="4" height="16">
+      <character>41</character>
+    </rectangle>
+    <rectangle x="96" y="80" width="4" height="16">
+      <character>91</character>
+    </rectangle>
+    <rectangle x="100" y="80" width="4" height="16">
+      <character>93</character>
+    </rectangle>
+    <rectangle x="104" y="80" width="4" height="16">
+      <character>102</character>
+    </rectangle>
+    <rectangle x="108" y="80" width="3" height="16">
+      <character>39</character>
+    </rectangle>
+    <rectangle x="111" y="80" width="3" height="16">
+      <character>44</character>
+    </rectangle>
+    <rectangle x="114" y="80" width="3" height="16">
+      <character>45</character>
+    </rectangle>
+    <rectangle x="117" y="80" width="3" height="16">
+      <character>46</character>
+    </rectangle>
+    <rectangle x="120" y="80" width="3" height="16">
+      <character>58</character>
+    </rectangle>
+    <rectangle x="123" y="80" width="3" height="16">
+      <character>59</character>
+    </rectangle>
+    <rectangle x="0" y="96" width="3" height="16">
+      <character>73</character>
+    </rectangle>
+    <rectangle x="3" y="96" width="3" height="16">
+      <character>105</character>
+    </rectangle>
+    <rectangle x="6" y="96" width="3" height="16">
+      <character>106</character>
+    </rectangle>
+    <rectangle x="9" y="96" width="3" height="16">
+      <character>108</character>
+    </rectangle>
+    <rectangle x="12" y="96" width="1" height="16">
+      <character>124</character>
+    </rectangle>
+  </layout>
+</bitmapfont-machine>
+

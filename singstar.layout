@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="PC Debug" />
+	<File name="Singstar.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="47629" topLine="1406" />
+	</File>
+	<File name="Singstar.h" open="1" top="0" tabpos="1">
+		<Cursor position="2333" topLine="58" />
+	</File>
+	<File name="eglport.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="4121" topLine="151" />
+	</File>
+</CodeBlocks_layout_file>

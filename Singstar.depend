@@ -1,0 +1,295 @@
+# depslib dependency file v1.0
+1261080484 source:c:\users\dave\documents\source code\gp2x\guitarhero\guitarhero.cpp
+	<SDl/SDL.h>
+	<SDl/SDL_mixer.h>
+	<SDl/SDL_TTF.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_Thread.h"
+	"GuitarHero.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisfile.h>
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1239493568 
+
+1258914117 c:\users\dave\documents\source code\gp2x\guitarhero\guitarhero.h
+
+1247175574 source:c:\users\dave\documents\source code\gp2x\guitarhero\libvorbis-1.2.3\examples\decoder_example.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<vorbis/codec.h>
+	<io.h>
+	<fcntl.h>
+	<console.h>
+
+1247175574 >
+
+1247022564 source:c:\users\dave\documents\source code\gp2x\guitarhero\libvorbis-1.2.3\examples\vorbisfile_example.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisfile.h>
+	<io.h>
+	<fcntl.h>
+
+1258738139 source:c:\users\dave\documents\source code\gp2x\guitarhero\guitarhero.c
+	<SDl/SDL.h>
+	<SDl/SDL_mixer.h>
+	"GuitarHero.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"vorbis/codec.h"
+	"vorbis/vorbisfile.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1295522685 source:c:\users\dave\documents\source code\singstar\singstar.cpp
+	<SDl/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_thread.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<stdio.h>
+	<new>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<dirent.h>
+	"portaudio.h"
+	"FFTRealFixLen.h"
+	"bass.h"
+	"Singstar.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1295521642 c:\users\dave\documents\source code\singstar\singstar.h
+
+1186846149 c:\users\dave\documents\source code\singstar\portaudio.h
+
+1129577388 c:\users\dave\documents\source code\singstar\fftrealfixlen.h
+	"Array.h"
+	"DynArray.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealFixLen.hpp"
+
+1129577388 xLen.hpp"
+
+1129456658 c:\users\dave\documents\source code\singstar\array.h
+	"Array.hpp"
+
+1129456658 "
+
+1129467116 c:\users\dave\documents\source code\singstar\array.hpp
+	<cassert>
+
+1129456666 c:\users\dave\documents\source code\singstar\dynarray.h
+	"DynArray.hpp"
+
+1129456666 hpp"
+
+1129467128 c:\users\dave\documents\source code\singstar\dynarray.hpp
+	<cassert>
+
+1129578976 c:\users\dave\documents\source code\singstar\fftrealfixlenparam.h
+
+1129456694 c:\users\dave\documents\source code\singstar\oscsincos.h
+	"def.h"
+	"OscSinCos.hpp"
+
+1129456694 .hpp"
+
+1129456664 c:\users\dave\documents\source code\singstar\def.h
+
+1129467254 c:\users\dave\documents\source code\singstar\oscsincos.hpp
+	<cmath>
+
+1129456672 c:\users\dave\documents\source code\singstar\fftrealfixlen.hpp
+	"def.h"
+	"FFTRealPassDirect.h"
+	"FFTRealPassInverse.h"
+	"FFTRealSelect.h"
+	<cassert>
+	<cmath>
+
+1129456676 c:\users\dave\documents\source code\singstar\fftrealpassdirect.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassDirect.hpp"
+
+1129456676 ssDirect.hpp"
+
+1129467352 c:\users\dave\documents\source code\singstar\fftrealpassdirect.hpp
+	"FFTRealUseTrigo.h"
+
+1129456680 eTrigo.h"
+
+1129456688 c:\users\dave\documents\source code\singstar\fftrealusetrigo.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealUseTrigo.hpp"
+
+1129456688 eTrigo.hpp"
+
+1129456692 c:\users\dave\documents\source code\singstar\fftrealusetrigo.hpp
+	"OscSinCos.h"
+
+1129456692 .h"
+
+1129456678 c:\users\dave\documents\source code\singstar\fftrealpassinverse.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassInverse.hpp"
+
+1129456678 ssInverse.hpp"
+
+1129456680 c:\users\dave\documents\source code\singstar\fftrealpassinverse.hpp
+	"FFTRealUseTrigo.h"
+
+1129456680 c:\users\dave\documents\source code\singstar\fftrealselect.h
+	"def.h"
+	"FFTRealSelect.hpp"
+
+1129456680 lect.hpp"
+
+1129456682 c:\users\dave\documents\source code\singstar\fftrealselect.hpp
+
+1239493568 c:\users\dave\documents\source code\singstar\bmfxml\bmfxml.h
+	"../bmfont/bmfont.h"
+
+1239493568 /bmfont.h"
+
+1239493568 c:\users\dave\documents\source code\singstar\bmfont\bmfont.h
+	<map>
+	<vector>
+
+1239493568 c:\users\dave\documents\source code\singstar\bmfont\render_bmfont.h
+	"bmfont.h"
+
+1276772250 
+
+1276772250 c:\users\dave\documents\source code\singstar\bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1295526286 source:/media/MAINSYSTEM/source/singstar/Singstar.cpp
+	<SDl/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_thread.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<stdio.h>
+	<new>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<dirent.h>
+	"portaudio.h"
+	"FFTRealFixLen.h"
+	"bass.h"
+	"Singstar.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1186853350 /media/MAINSYSTEM/source/singstar/portaudio.h
+
+1129584588 /media/MAINSYSTEM/source/singstar/FFTRealFixLen.h
+	"Array.h"
+	"DynArray.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealFixLen.hpp"
+
+1129463858 /media/MAINSYSTEM/source/singstar/Array.h
+	"Array.hpp"
+
+1129474316 /media/MAINSYSTEM/source/singstar/Array.hpp
+	<cassert>
+
+1129463866 /media/MAINSYSTEM/source/singstar/DynArray.h
+	"DynArray.hpp"
+
+1129474328 /media/MAINSYSTEM/source/singstar/DynArray.hpp
+	<cassert>
+
+1129586176 /media/MAINSYSTEM/source/singstar/FFTRealFixLenParam.h
+
+1129463894 /media/MAINSYSTEM/source/singstar/OscSinCos.h
+	"def.h"
+	"OscSinCos.hpp"
+
+1129463864 /media/MAINSYSTEM/source/singstar/def.h
+
+1129474454 /media/MAINSYSTEM/source/singstar/OscSinCos.hpp
+	<cmath>
+
+1129463872 /media/MAINSYSTEM/source/singstar/FFTRealFixLen.hpp
+	"def.h"
+	"FFTRealPassDirect.h"
+	"FFTRealPassInverse.h"
+	"FFTRealSelect.h"
+	<cassert>
+	<cmath>
+
+1129463876 /media/MAINSYSTEM/source/singstar/FFTRealPassDirect.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassDirect.hpp"
+
+1129474552 /media/MAINSYSTEM/source/singstar/FFTRealPassDirect.hpp
+	"FFTRealUseTrigo.h"
+
+1129463888 /media/MAINSYSTEM/source/singstar/FFTRealUseTrigo.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealUseTrigo.hpp"
+
+1129463892 /media/MAINSYSTEM/source/singstar/FFTRealUseTrigo.hpp
+	"OscSinCos.h"
+
+1129463878 /media/MAINSYSTEM/source/singstar/FFTRealPassInverse.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassInverse.hpp"
+
+1129463880 /media/MAINSYSTEM/source/singstar/FFTRealPassInverse.hpp
+	"FFTRealUseTrigo.h"
+
+1129463880 /media/MAINSYSTEM/source/singstar/FFTRealSelect.h
+	"def.h"
+	"FFTRealSelect.hpp"
+
+1129463882 /media/MAINSYSTEM/source/singstar/FFTRealSelect.hpp
+
+1276779450 /media/MAINSYSTEM/source/singstar/bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1295525244 /media/MAINSYSTEM/source/singstar/Singstar.h
+
