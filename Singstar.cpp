@@ -306,16 +306,16 @@ int get_key()
                         case SDLK_DOWN:
 							DOWNDOWN=0;
 							break;
-                        case SDLK_LCTRL:
+                        case SDLK_HOME:
 							ADOWN=0;
 							break;
-                        case SDLK_z:
+                        case SDLK_END:
 							BDOWN=0;
 							break;
-                        case SDLK_s:
+                        case SDLK_LALT:
                             STARTDOWN=0;
 							break;
-                        case SDLK_l:
+                        case SDLK_RSHIFT:
                             LSDOWN=0;
 							break;
                         case SDLK_q:
@@ -343,16 +343,16 @@ int get_key()
                         case SDLK_DOWN:
 							DOWNDOWN=1;
 							break;
-                        case SDLK_LCTRL:
+                        case SDLK_HOME:
 							ADOWN=1;
 							break;
-                        case SDLK_z:
+                        case SDLK_END:
 							BDOWN=1;
 							break;
-                        case SDLK_s:
+                        case SDLK_LALT:
                             STARTDOWN=1;
 							break;
-                        case SDLK_l:
+                        case SDLK_RSHIFT:
                             LSDOWN=1;
 							break;
                         case SDLK_q:
@@ -415,7 +415,7 @@ BOOL CALLBACK micCallback(HRECORD handle, const void *inputBuffer,
 
 
                                 newdata=1;
-                                printf("Ticks: %d\n",SDL_GetTicks());
+                                //printf("Ticks: %d\n",SDL_GetTicks());
                                return 0;
 
                            }
@@ -783,7 +783,7 @@ int call_song(void)
 
     BASS_ChannelPlay(micStream,true);
     //printf(  "BASS Mic channel play message: %s\n", err  );
-    if (err!=0) return 1;
+    //if (err!=0) return 1;
 
     //   Mix_HookMusicFinished(musicFinished);
     musicPlaying=1;
@@ -801,7 +801,7 @@ int call_song(void)
         return 1;
     }
 
-
+    SDL_Delay(200);
 
 
 
@@ -1197,6 +1197,7 @@ void loadSongDetails (char * filename,char * path)
                     param[colpos]=0;
                     strncpy(value,colon+1,strlen(temp)-(colpos+1));
                     value[strlen(temp)-(colpos+1)]=0;
+                    if (value[strlen(temp)-(colpos+2)]==13) value[strlen(temp)-(colpos+2)]=0;
                     if (strcmp(param,"#ARTIST:")==0) {strcpy(artist,value); fartist=1;}
                     if (strcmp(param,"#TITLE:")==0) {strcpy(title,value); ftitle=1;}
                     if (strcmp(param,"#EDITION:")==0) strcpy(edition,value);
@@ -1392,6 +1393,18 @@ GLuint SurfacetoTexture(char * surffilename)
                         texture_format = GL_RGBA;
                 else
                         //texture_format = GL_BGRA;
+                       /* SDL_LockSurface(surface);
+                        char * pptr=(char*)surface->pixels;
+                        char tc;
+                        for (int i=0;i<surface->h;i++)
+                            for (int j=0;j<surface->w;j++)
+                            {
+                                tc=*pptr;
+                                *pptr=*(pptr+2);
+                                *(pptr+2)=tc;
+                                pptr+=4;
+                            }
+                        SDL_UnlockSurface(surface);*/
                         texture_format = GL_RGBA;
         }
         else if (nOfColors == 3)     // no alpha channel
@@ -1400,6 +1413,18 @@ GLuint SurfacetoTexture(char * surffilename)
                         texture_format = GL_RGB;
                 else
                         //texture_format = GL_BGR;
+/*                        SDL_LockSurface(surface);
+                        char * pptr=(char*)surface->pixels;
+                        char tc;
+                        for (int i=0;i<surface->h;i++)
+                            for (int j=0;j<surface->w;j++)
+                            {
+                                tc=*pptr;
+                                *pptr=*(pptr+2);
+                                *(pptr+2)=tc;
+                                pptr+=3;
+                            }
+                        SDL_UnlockSurface(surface);*/
                         texture_format = GL_RGB;
         }
         else
@@ -1419,7 +1444,7 @@ GLuint SurfacetoTexture(char * surffilename)
         glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR );
 
         // Edit the texture object's image data using the information SDL_Surface gives us
-        glTexImage2D( GL_TEXTURE_2D, 0, nOfColors, surface->w, surface->h, 0,texture_format, GL_UNSIGNED_BYTE, surface->pixels );
+        glTexImage2D( GL_TEXTURE_2D, 0, texture_format, surface->w, surface->h, 0,texture_format, GL_UNSIGNED_BYTE, surface->pixels );
 
         if ( surface ) {
             SDL_FreeSurface( surface );
@@ -1936,8 +1961,10 @@ int main( int argc, char* args[] )
     BASS_RecordInit(selectedDevice);
     BASS_RecordGetInfo(&recordinfo);
     recordchannels=recordinfo.inputs;
+    printf("Inputs for selected device=%d\n",recordchannels);
+    //goto forcequit;
     if (recordchannels<1) goto forcequit;
-    micStream=BASS_RecordStart(44100,2,MAKELONG(BASS_RECORD_PAUSE,20),micCallback,myData);
+    micStream=BASS_RecordStart(44100,2,MAKELONG(BASS_RECORD_PAUSE,20),&micCallback,myData);
     //err=Pa_OpenStream(&micStream,&micInput,NULL,44100,REC_BUFFER*2,paNoFlag,micCallback,myData);
  //   printf(  "PortAudio Openstream Message: %s\n", Pa_GetErrorText( err ) );
 

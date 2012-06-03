@@ -139,3 +139,125 @@
 	<stdint.h>
 	"EGL/egl.h"
 
+1337019733 source:/media/mmcblk0p1/Pandora-Star/eglport.cpp
+	"eglport.h"
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	"SDL/SDL_syswm.h"
+	"SDL/SDL.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/fb.h>
+
+1337021951 /media/mmcblk0p1/Pandora-Star/eglport.h
+	<string>
+	<stdlib.h>
+	<stdint.h>
+	"EGL/egl.h"
+
+1338746863 source:/media/mmcblk0p1/Pandora-Star/Singstar.cpp
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_thread.h>
+	<GLES/gl.h>
+	"eglport.h"
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<stdio.h>
+	<new>
+	<sys/types.h>
+	<sys/stat.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<dirent.h>
+	"portaudio.h"
+	"FFTRealFixLen.h"
+	"bass.h"
+	"Singstar.h"
+	<unistd.h>
+	<io.h>
+	<fcntl.h>
+
+1186853350 /media/mmcblk0p1/Pandora-Star/portaudio.h
+
+1129584588 /media/mmcblk0p1/Pandora-Star/FFTRealFixLen.h
+	"Array.h"
+	"DynArray.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealFixLen.hpp"
+
+1129463858 /media/mmcblk0p1/Pandora-Star/Array.h
+	"Array.hpp"
+
+1129474316 /media/mmcblk0p1/Pandora-Star/Array.hpp
+	<cassert>
+
+1129463866 /media/mmcblk0p1/Pandora-Star/DynArray.h
+	"DynArray.hpp"
+
+1129474328 /media/mmcblk0p1/Pandora-Star/DynArray.hpp
+	<cassert>
+
+1129586176 /media/mmcblk0p1/Pandora-Star/FFTRealFixLenParam.h
+
+1129463894 /media/mmcblk0p1/Pandora-Star/OscSinCos.h
+	"def.h"
+	"OscSinCos.hpp"
+
+1129463864 /media/mmcblk0p1/Pandora-Star/def.h
+
+1129474454 /media/mmcblk0p1/Pandora-Star/OscSinCos.hpp
+	<cmath>
+
+1129463872 /media/mmcblk0p1/Pandora-Star/FFTRealFixLen.hpp
+	"def.h"
+	"FFTRealPassDirect.h"
+	"FFTRealPassInverse.h"
+	"FFTRealSelect.h"
+	<cassert>
+	<cmath>
+
+1129463876 /media/mmcblk0p1/Pandora-Star/FFTRealPassDirect.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassDirect.hpp"
+
+1129474552 /media/mmcblk0p1/Pandora-Star/FFTRealPassDirect.hpp
+	"FFTRealUseTrigo.h"
+
+1129463888 /media/mmcblk0p1/Pandora-Star/FFTRealUseTrigo.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealUseTrigo.hpp"
+
+1129463892 /media/mmcblk0p1/Pandora-Star/FFTRealUseTrigo.hpp
+	"OscSinCos.h"
+
+1129463878 /media/mmcblk0p1/Pandora-Star/FFTRealPassInverse.h
+	"def.h"
+	"FFTRealFixLenParam.h"
+	"OscSinCos.h"
+	"FFTRealPassInverse.hpp"
+
+1129463880 /media/mmcblk0p1/Pandora-Star/FFTRealPassInverse.hpp
+	"FFTRealUseTrigo.h"
+
+1129463880 /media/mmcblk0p1/Pandora-Star/FFTRealSelect.h
+	"def.h"
+	"FFTRealSelect.hpp"
+
+1129463882 /media/mmcblk0p1/Pandora-Star/FFTRealSelect.hpp
+
+1276779450 /media/mmcblk0p1/Pandora-Star/bass.h
+	<wtypes.h>
+	<stdint.h>
+
+1337167397 /media/mmcblk0p1/Pandora-Star/Singstar.h
+
